@@ -11,13 +11,13 @@ app.use(express.text({ type: 'text/html' }));
 
 // Healthcheck endpoint
 app.get('/', (req, res) => {
-  res.status(200).send({ status: 'Custom push happened' });
+  res.status(200).send({ status: 'Custom push happened by Abbas' });
 });
 
 const api = express.Router();
 
 api.get('/hello', (req, res) => {
-  res.status(200).send({ message: 'hello world from cloudstation' });
+  res.status(200).send({ message: 'hello world from cloudstation by Abbas' });
 });
 
 // Version the api
