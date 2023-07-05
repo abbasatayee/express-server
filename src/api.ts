@@ -11,7 +11,7 @@ app.use(express.text({ type: 'text/html' }));
 
 // Healthcheck endpoint
 app.get('/', (req, res) => {
-  res.status(200).send({ status: 'Custom push happened by Abbas' });
+  res.status(200).send({ status: 'Custom push happened by Abbas new' });
 });
 
 const api = express.Router();
