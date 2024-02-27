@@ -1,9 +1,9 @@
 {
-  "name": "expressjs-updated",
+  "name": "expressjs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "author": "Abbas Ataie Updated",
+  "author": "Abbas Ataie",
   "scripts": {
     "dev": "nodemon src/index.ts",
     "build": "tsc",
