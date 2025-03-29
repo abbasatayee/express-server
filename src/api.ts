@@ -11,7 +11,22 @@ app.use(express.text({ type: 'text/html' }));
 
 // Healthcheck endpoint
 app.get('/', (req, res) => {
-  res.status(200).send({ status: 'Hello' });
+  res.status(200).send({
+    status: `
+    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.  
+    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.    
+    ` });
 });
 
 const api = express.Router();
