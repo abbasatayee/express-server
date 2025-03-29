@@ -31,6 +31,7 @@ app.get('/', (req, res) => {
 
 app.get('/users', (req, res) => {
   res.status(200).send({
+
     users: [
       { id: 1, name: 'John Doe' },
       { id: 2, name: 'Jane Doe' },
@@ -39,7 +40,7 @@ app.get('/users', (req, res) => {
     ],
 
 
-  });
+  );
 })
 
 const api = express.Router();
